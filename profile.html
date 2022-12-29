@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/master.css" />
+    <link rel="stylesheet" href="css/myframework.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/all.min.css" />
+  </head>
+  <body>
+    <div class="page d-flex">
+      <div class="side-bar bg-white">
+        <h3 class="link-decor logo bold mt-10 txt-cenetr">wessam</h3>
+        <ul class="ul-style listed ml-20">
+          <li>
+            <a href="index.html" class="link-decor"
+              ><i class="fa-sharp fa-solid fa-table-columns"></i
+              ><span>Dashboard</span></a
+            >
+          </li>
+          <li>
+            <a href="settings.html" class="link-decor"
+              ><i class="fa-solid fa-gears"></i><span>settings</span></a
+            >
+          </li>
+          <li class="active">
+            <a href="profile.html" class="link-decor"
+              ><i class="fa-regular fa-user"></i><span>profile</span></a
+            >
+          </li>
+          <li>
+            <a href="projects.html" class="link-decor"
+              ><i class="fa-solid fa-diagram-project"></i
+              ><span>projects</span></a
+            >
+          </li>
+          <li>
+            <a href="courses.html" class="link-decor"
+              ><i class="fa-solid fa-school"></i><span>coursers</span></a
+            >
+          </li>
+          <li>
+            <a href="friends.html" class="link-decor"
+              ><i class="fa-solid fa-user-group"></i><span>friends</span></a
+            >
+          </li>
+          <li>
+            <a href="files.html" class="link-decor"
+              ><i class="fa-solid fa-file"></i><span>fiels</span></a
+            >
+          </li>
+          <li>
+            <a href="plans.html" class="link-decor"
+              ><i class="fa-solid fa-list-check"></i><span>plans</span></a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="content">
+        <div class="content-header bg-white p-10 d-between">
+          <div class="search">
+            <input type="search" placeholder="search keyword" class="p-10" />
+          </div>
+          <div class="icons">
+            <span><i class="fa-solid fa-bell"></i></span>
+            <img src="imgs/avatar.png" class="avatar" />
+            <!-- <span class="avatar"><i class="fa-solid fa-person-dress"></i></span> -->
+          </div>
+        </div>
+        <div class="content-body p-10">
+          <h1>profile</h1>
+          <div class="general-info bg-white rad-10 d-flex">
+            <div class="profile-img">
+              <img src="imgs/avatar.png" />
+              <h5>wessam lasheen</h5>
+              <span>level 3</span>
+              <div class="profile-progress"><span></span></div>
+              <div class="stars">
+                <i class="fa-solid fa-star active"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <span>150 rating</span>
+            </div>
+            <div class="profile-info p-10">
+              <div class="box">
+                <h5>general information</h5>
+                <div class="d-flex box-data">
+                  <p>full name:<span>wessam lasheen</span></p>
+                  <p>gender:<span>female</span></p>
+                  <p>country:<span>egypt</span></p>
+                  <label>
+                    <input type="checkbox" class="toggle-checkbox" checked />
+                    <span class="toggle-switch"></span>
+                  </label>
+                </div>
+              </div>
+              <div class="box">
+                <h5>personal information</h5>
+                <div class="d-flex box-data">
+                  <p>email:<span>wessam@gmail.com</span></p>
+                  <p>phone:<span>01025115703</span></p>
+                  <p>date of birth:<span>1/5</span></p>
+                  <label>
+                    <input type="checkbox" class="toggle-checkbox" />
+                    <span class="toggle-switch"></span>
+                  </label>
+                </div>
+              </div>
+              <div class="box">
+                <h5>job information</h5>
+                <div class="d-flex box-data">
+                  <p>title:<span>frontend developer</span></p>
+                  <p>programming language:<span>js</span></p>
+                  <p>years of experience:<span>3</span></p>
+                  <label>
+                    <input type="checkbox" class="toggle-checkbox" checked />
+                    <span class="toggle-switch"></span>
+                  </label>
+                </div>
+              </div>
+              <div class="box">
+                <h5>general information</h5>
+                <div class="d-flex box-data">
+                  <p>full name:<span>wessam lasheen</span></p>
+                  <p>gender:<span>female</span></p>
+                  <p>country:<span>egypt</span></p>
+                  <label>
+                    <input type="checkbox" class="toggle-checkbox" />
+                    <span class="toggle-switch"></span>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="skills-activities d-flex">
+            <div class="skills bg-white p-10 rad-10">
+              <h4>my skills</h4>
+              <span>complete skills list</span>
+              <div class="skills-row d-flex">
+                <span>html</span>
+                <span>css</span>
+                <span>html5</span>
+                <span>css3</span>
+              </div>
+              <div class="skills-row d-flex">
+                <span>javascript</span>
+                <span>typescript</span>
+              </div>
+              <div class="skills-row d-flex">
+                <span>bootstrap5</span>
+                <span>tailwind</span>
+              </div>
+              <div class="skills-row d-flex">
+                <span>jquery</span>
+                <span>photoshop</span>
+              </div>
+            </div>
+            <div class="activities bg-white p-10 rad-10">
+              <h4>my activities</h4>
+              <span>latets activities done by the user</span>
+              <div class="activity-row d-flex">
+                <div class="store d-flex">
+                  <i class="fa-solid fa-store"></i>
+                  <div class="txt">
+                    <p>store</p>
+                    <span>bought the mastering python course </span>
+                  </div>
+                </div>
+                <div class="date">
+                  <span>18:05</span>
+                  <span>yesterday</span>
+                </div>
+              </div>
+              <div class="activity-row d-flex">
+                <div class="store d-flex">
+                  <i class="fa-solid fa-store"></i>
+                  <div class="txt">
+                    <p>badge</p>
+                    <span>bought the mastering python course </span>
+                  </div>
+                </div>
+                <div class="date">
+                  <span>18:05</span>
+                  <span>yesterday</span>
+                </div>
+              </div>
+              <div class="activity-row d-flex">
+                <div class="store d-flex">
+                  <i class="fa-solid fa-ribbon"></i>
+                  <div class="txt">
+                    <p>academy</p>
+                    <span>bought the mastering python course </span>
+                  </div>
+                </div>
+                <div class="date">
+                  <span>18:05</span>
+                  <span>yesterday</span>
+                </div>
+              </div>
+              <div class="activity-row d-flex">
+                <div class="store d-flex">
+                  <i class="fa-solid fa-graduation-cap"></i>
+                  <div class="txt">
+                    <p>store</p>
+                    <span>bought the mastering python course </span>
+                  </div>
+                </div>
+                <div class="date">
+                  <span>18:05</span>
+                  <span>yesterday</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>

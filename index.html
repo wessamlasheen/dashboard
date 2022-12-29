@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/master.css" />
+    <link rel="stylesheet" href="css/myframework.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/all.min.css" />
+  </head>
+  <body>
+    <div class="page d-flex">
+      <div class="side-bar bg-white">
+        <h3 class="link-decor logo bold mt-10 txt-cenetr">wessam</h3>
+        <ul class="ul-style listed ml-20">
+          <li class="active">
+            <a href="index.html" class="link-decor"
+              ><i class="fa-sharp fa-solid fa-table-columns"></i
+              ><span>Dashboard</span></a
+            >
+          </li>
+          <li>
+            <a href="settings.html" class="link-decor"
+              ><i class="fa-solid fa-gears"></i><span>settings</span></a
+            >
+          </li>
+          <li>
+            <a href="profile.html" class="link-decor"
+              ><i class="fa-regular fa-user"></i><span>profile</span></a
+            >
+          </li>
+          <li>
+            <a href="projects.html" class="link-decor"
+              ><i class="fa-solid fa-diagram-project"></i
+              ><span>projects</span></a
+            >
+          </li>
+          <li>
+            <a href="courses.html" class="link-decor"
+              ><i class="fa-solid fa-school"></i><span>courses</span></a
+            >
+          </li>
+          <li>
+            <a href="friends.html" class="link-decor"
+              ><i class="fa-solid fa-user-group"></i><span>friends</span></a
+            >
+          </li>
+          <li>
+            <a href="files.html" class="link-decor"
+              ><i class="fa-solid fa-file"></i><span>fiels</span></a
+            >
+          </li>
+          <li>
+            <a href="plans.html" class="link-decor"
+              ><i class="fa-solid fa-list-check"></i><span>plans</span></a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="content">
+        <div class="content-header bg-white p-10 d-between">
+          <div class="search">
+            <input type="search" placeholder="search keyword" class="p-10" />
+          </div>
+          <div class="icons">
+            <span><i class="fa-solid fa-bell"></i></span>
+            <img src="imgs/avatar.png" class="avatar" />
+            <!-- <span class="avatar"><i class="fa-solid fa-person-dress"></i></span> -->
+          </div>
+        </div>
+        <div class="content-body p-10">
+          <h1>Dashboard</h1>
+          <div class="boxes d-between">
+            <!--start welcome-->
+            <div class="content-box welcome bg-white rad-10">
+              <div class="intro bg-offwhite p-10 d-flex">
+                <div>
+                  <h3>welcome</h3>
+                  <span class="name">wessam</span>
+                </div>
+                <img src="imgs/avatar.png" alt="avatar" />
+              </div>
+              <div class="data bg-white">
+                <img src="imgs/avatar.png" />
+                <div class="info p-10 d-between">
+                  <div>
+                    <p>wessam lasheen</p>
+                    <span>frontend developer</span>
+                  </div>
+                  <div>
+                    <p>faculty</p>
+                    <span>computer science</span>
+                  </div>
+                  <div>
+                    <p>graduation year</p>
+                    <span>2012</span>
+                  </div>
+                </div>
+                <a href="profile.html" class="blue-btn profile-btn">profile</a>
+              </div>
+            </div>
+            <!--end welcome-->
+
+            <!--start draft-->
+            <div class="content-box Quick-draft p-10 bg-white rad-10">
+              <div>
+                <h3>Quick draft</h3>
+                <span class="name mb-10 d-block"
+                  >Write draft for your idea</span
+                >
+              </div>
+              <form>
+                <input
+                  type="text"
+                  placeholder="title"
+                  class="p-10 bg-offwhite rad-10 bord-0 width-full mb-10"
+                />
+                <textarea
+                  placeholder="your thought"
+                  class="p-10 rad-10 bg-offwhite bord-0 width-full"
+                ></textarea>
+                <input
+                  type="submit"
+                  value="save"
+                  class="blue-btn profile-btn bord-0"
+                />
+              </form>
+            </div>
+            <!--end draft-->
+            <!--start target -->
+            <div class="content-box yearly-target bg-white rad-10 p-10">
+              <div>
+                <h3>yearly target</h3>
+                <span class="name mb-10 d-block"
+                  >target of the year with progress</span
+                >
+              </div>
+              <div class="target mt-20">
+                <div class="info d-flex">
+                  <div class="sign" style="background-color: #adcef5">
+                    <i class="fa-solid fa-dollar-sign"></i>
+                  </div>
+                  <div class="progress ml-10">
+                    <span class="name money">money</span>
+                    <span class="dollar">$20.000</span>
+                    <div class="progress-bar blue-alt">
+                      <span class="percent-num blue">40%</span>
+                      <span class="percent blue" data-width="40%"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="target mt-20">
+                <div class="info d-flex">
+                  <div class="sign" style="background-color: #f4cf93">
+                    <i class="fa-solid fa-code"></i>
+                  </div>
+                  <div class="progress ml-10">
+                    <span class="name money">team</span>
+                    <span class="dollar">24</span>
+                    <div class="progress-bar orange-alt">
+                      <span class="percent-num orange">60%</span>
+                      <span class="percent orange" data-width="60%"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="target mt-20">
+                <div class="info d-flex">
+                  <div class="sign" style="background-color: #9cfcbf">
+                    <i class="fa-solid fa-user"></i>
+                  </div>
+                  <div class="progress ml-10">
+                    <span class="name money">projects</span>
+                    <span class="dollar">17</span>
+                    <div class="progress-bar green-alt">
+                      <span class="percent-num green">95%</span>
+                      <span class="percent green" data-width="95%"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end target-->
+            <!-- start statics -->
+            <div class="content-box static p-10 bg-white rad-10">
+              <div>
+                <h3>tickets statics</h3>
+                <span class="name mb-10 d-block"
+                  >every thing about support tickets</span
+                >
+              </div>
+              <div class="statics-info d-flex">
+                <div class="box d-flex p-10">
+                  <img src="imgs/schedule.png" alt="loading icon" />
+                  <h3 data-number="3200" class="static-num">0</h3>
+                  <span class="name">total</span>
+                </div>
+                <div class="box d-flex p-10">
+                  <img src="imgs/done.png" alt="loading icon" />
+                  <h3 data-number="2500" class="static-num">0</h3>
+                  <span class="name">total</span>
+                </div>
+                <div class="box d-flex p-10">
+                  <img src="imgs/load.png" alt="loading icon" />
+                  <h3 data-number="2100" class="static-num">0</h3>
+                  <span class="name">total</span>
+                </div>
+                <div class="box d-flex p-10">
+                  <img src="imgs/notfinshed.png" alt="loading icon" />
+                  <h3 data-number="1000" class="static-num">0</h3>
+                  <span class="name">total</span>
+                </div>
+              </div>
+            </div>
+            <!--end statics-->
+            <!--start news-->
+            <div class="content-box bg-white p-10 rad-10 news">
+              <div>
+                <h3>latest news</h3>
+              </div>
+              <div class="news-row d-between mt-20">
+                <div class="news-img d-flex">
+                  <img src="imgs/welcome.png" />
+                  <div class="data">
+                    <h6>created sass section</h6>
+                    <span>new sass example and tutorials</span>
+                  </div>
+                </div>
+                <span class="bg-offwhite">3 days ago</span>
+              </div>
+              <div class="news-row d-between mt-20">
+                <div class="news-img d-flex">
+                  <img src="imgs/first.png" />
+                  <div class="data">
+                    <h6>team increase</h6>
+                    <span>new sass example and tutorials</span>
+                  </div>
+                </div>
+                <span class="bg-offwhite">3 days ago</span>
+              </div>
+              <div class="news-row d-between mt-20">
+                <div class="news-img d-flex">
+                  <img src="imgs/welcome.webp" />
+                  <div class="data">
+                    <h6>change the design</h6>
+                    <span>new sass example and tutorials</span>
+                  </div>
+                </div>
+                <span class="bg-offwhite">3 days ago</span>
+              </div>
+            </div>
+            <!--end news-->
+            <!--start tasks-->
+            <div class="content-box bg-white p-10 rad-10 tasks">
+              <div>
+                <h3>latest tasks</h3>
+              </div>
+              <div class="task-row d-between mt-20">
+                <div class="task-info">
+                  <h6>study one new video1</h6>
+                  <span>study new js lesson</span>
+                </div>
+                <i class="fa-regular fa-circle-check mr-10 done-icon"></i>
+                <i class="fa-solid fa-trash delete"></i>
+              </div>
+              <div class="task-row d-between mt-20">
+                <div class="task-info">
+                  <h6>study one new video2</h6>
+                  <span>study new js lesson</span>
+                </div>
+                <i class="fa-regular fa-circle-check mr-10 done-icon"></i>
+                <i class="fa-solid fa-trash delete"></i>
+              </div>
+              <div class="task-row d-between mt-20">
+                <div class="task-info">
+                  <h6>study one new video3</h6>
+                  <span>study new js lesson</span>
+                </div>
+                <i class="fa-regular fa-circle-check mr-10 done-icon"></i>
+                <i class="fa-solid fa-trash delete"></i>
+              </div>
+            </div>
+
+            <!--end tasks-->
+            <!---start search-->
+            <div class="content-box bg-white p-10 rad-10 search">
+              <div>
+                <h3>top search items</h3>
+              </div>
+              <div class="search-row d-between mt-20">
+                <span class="name">keyword</span>
+                <span class="name">search count</span>
+              </div>
+              <div class="search-row d-between mt-10">
+                <span class="result">programming</span>
+                <span class="result bg-offwhite num">220</span>
+              </div>
+              <div class="search-row d-between mt-10">
+                <span class="result">react</span>
+                <span class="result bg-offwhite num">190</span>
+              </div>
+              <div class="search-row d-between mt-10">
+                <span class="result">css</span>
+                <span class="result bg-offwhite num">280</span>
+              </div>
+              <div class="search-row d-between mt-10">
+                <span class="result">html</span>
+                <span class="result bg-offwhite num">130</span>
+              </div>
+              <div class="search-row d-between mt-10">
+                <span class="result">javascript</span>
+                <span class="result bg-offwhite num">20</span>
+              </div>
+            </div>
+            <!-- end search -->
+
+            <!--start uploads-->
+            <div class="content-box uploads p-10 bg-white rad-10">
+              <div>
+                <h3>latest uploads</h3>
+              </div>
+              <div class="upload-row d-flex mt-20">
+                <img src="imgs/html.png" />
+                <div class="upload-info">
+                  <h6>wessam</h6>
+                  <span class="name">index.html</span>
+                </div>
+                <span class="bg-offwhite num">1mb</span>
+              </div>
+              <div class="upload-row d-flex mt-20">
+                <img src="imgs/css3.png" />
+                <div class="upload-info">
+                  <h6>wessam</h6>
+                  <span class="name">master.css</span>
+                </div>
+                <span class="bg-offwhite num">1mb</span>
+              </div>
+              <div class="upload-row d-flex mt-20">
+                <img src="imgs/pdf.png" />
+                <div class="upload-info">
+                  <h6>wessam</h6>
+                  <span class="name">cv.pdf</span>
+                </div>
+                <span class="bg-offwhite num">0.5mb</span>
+              </div>
+              <div class="upload-row d-flex mt-20">
+                <img src="imgs/javascript.png" />
+                <div class="upload-info">
+                  <h6>wessam</h6>
+                  <span class="name">main.js</span>
+                </div>
+                <span class="bg-offwhite num">1mb</span>
+              </div>
+            </div>
+            <!--end uploads-->
+            <!--start current project progress-->
+            <div class="content-box current-progress bg-white rad-10 p-10">
+              <div>
+                <h3>current progress projects</h3>
+              </div>
+              <form action="" class="mt-20">
+                <div>
+                  <input type="radio" id="got" checked />
+                  <label for="got">got the project</label>
+                </div>
+                <div>
+                  <input type="radio" id="got" />
+                  <label for="got">start the project</label>
+                </div>
+                <div>
+                  <input type="radio" id="got" />
+                  <label for="got">the project about to finish</label>
+                </div>
+                <div>
+                  <input type="radio" id="got" />
+                  <label for="got">test the project</label>
+                </div>
+                <div>
+                  <input type="radio" id="got" />
+                  <label for="got">finish the project&get money</label>
+                </div>
+              </form>
+              <img src="imgs/rocket.png" />
+            </div>
+            <!--end current project progress-->
+            <!--start reminders-->
+            <div class="content-box reminders p-10 bg-white rad-10">
+              <div>
+                <h3>reminders</h3>
+              </div>
+              <ul class="mt-20">
+                <li class="ml-20 mb-10">
+                  check my tasks list<span class="d-block name"
+                    >20/9/2022 - 8:00am</span
+                  >
+                </li>
+                <li class="ml-20 mb-10">
+                  check my projects<span class="d-block name"
+                    >20/9/2022 - 8:00am</span
+                  >
+                </li>
+                <li class="ml-20 mb-10">
+                  call all clients<span class="d-block name"
+                    >20/9/2022 - 8:00am</span
+                  >
+                </li>
+                <li class="ml-20 mb-10">
+                  finish the development work shop<span class="d-block name"
+                    >20/9/2022 - 8:00am</span
+                  >
+                </li>
+              </ul>
+            </div>
+            <!--end reminders-->
+            <!--start about me-->
+            <div class="content-box about-me p-10 bg-white rad-10">
+              <div>
+                <h3>about me</h3>
+              </div>
+              <div class="img-row d-flex mt-20">
+                <img src="imgs/avatar.png" />
+                <div class="info">
+                  <h5>wessam lasheen</h5>
+                  <span class="name">frontend developer</span>
+                </div>
+              </div>
+              <p class="mt-20">
+                hello, iam wessam lasheen Front end developer with knowledge
+                seeks apposition in leading organization in web designing and
+                development to aid organizations to achieve their goals while
+                seeking to develop my own skills and abilities
+              </p>
+            </div>
+            <!--end about me-->
+            <!--start social-->
+            <div class="content-box social p-10 bg-white rad-10">
+              <div>
+                <h3>social media links</h3>
+              </div>
+              <div class="social-row d-flex mt-20">
+                <img src="imgs/gmail.png" class="blue" />
+                <div class="follow">
+                  <span class="ml-10">message me via mail</span>
+                  <a href="mailto:wessamadelgawad@gmail.com" class="blue mr-10"
+                    >send mail</a
+                  >
+                </div>
+              </div>
+              <div class="social-row d-flex mt-20">
+                <img src="imgs/whatsapp.png" class="green" />
+                <div class="follow">
+                  <span class="ml-10">call me</span>
+                  <a href="tel:966545057803" class="green mr-10">call now</a>
+                </div>
+              </div>
+              <div class="social-row d-flex mt-20">
+                <img src="imgs/linked.png" class="blue" />
+                <div class="follow">
+                  <span class="ml-10">follow me</span>
+                  <a
+                    href="https://www.linkedin.com/in/wessam-lasheen-468411228/"
+                    target="_blank"
+                    class="blue mr-10"
+                    >follow me</a
+                  >
+                </div>
+              </div>
+              <div class="social-row d-flex mt-20">
+                <img src="imgs/github.png" class="orange" />
+                <div class="follow">
+                  <span class="ml-10">view my projects</span>
+                  <a
+                    href="https://github.com/wessamlasheen"
+                    class="orange mr-10"
+                    >view projects</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!--end social-->
+          </div>
+        </div>
+        <!--start projects-->
+        <div class="projects-table bg-white p-10 mr-10 ml-10 rad-10 mb-20">
+          <h3>projects</h3>
+          <div class="responsive-table">
+            <table class="mt-20">
+              <thead>
+                <tr class="bg-offwhite">
+                  <th class="p-10">Company</th>
+                  <th class="p-10">technologies</th>
+                  <th class="p-10">date</th>
+                  <th class="p-10">team</th>
+                  <th class="p-10">status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>template1</td>
+                  <td>html&css</td>
+                  <td>2021</td>
+                  <td class="team-img">
+                    <img src="imgs/tableimg1.png" />
+                    <img src="imgs/tableimg2.png" />
+                    <img src="imgs/tableimg3.png" />
+                    <img src="imgs/tableimg4.png" />
+                  </td>
+                  <td>
+                    <span class="green p-3 rad-3 c-white">completed</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>template2</td>
+                  <td>html&css</td>
+                  <td>2021</td>
+                  <td>wessam</td>
+                  <td>
+                    <span class="green p-3 rad-3 c-white">completed</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>template3</td>
+                  <td>html&css</td>
+                  <td>2021</td>
+                  <td>wessam</td>
+                  <td>
+                    <span class="green p-3 rad-3 c-white">completed</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>template4</td>
+                  <td>html&css</td>
+                  <td>2022</td>
+                  <td>wessam</td>
+                  <td>
+                    <span class="orange p-3 rad-3 c-white">inprogress</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>special desing</td>
+                  <td>html&css&js</td>
+                  <td>2022</td>
+                  <td>wessam</td>
+                  <td>
+                    <span class="green p-3 rad-3 c-white">completed</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>crud</td>
+                  <td>html&css&js</td>
+                  <td>2022</td>
+                  <td>wessam</td>
+                  <td><span class="blue p-3 rad-3 c-white">pending</span></td>
+                </tr>
+                <tr>
+                  <td>memory game</td>
+                  <td>html&css&js</td>
+                  <td>2022</td>
+                  <td>wessam</td>
+                  <td>
+                    <span class="green p-3 rad-3 c-white">completed</span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <!--end projects-->
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
